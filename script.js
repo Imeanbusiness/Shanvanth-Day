@@ -18,7 +18,7 @@ if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw
 if (device == "phone") {
 
   document.getElementById("main").style.padding= "0px";
-  document.getElementById("main").style.textalign= "center";
+  document.getElementById("main").style.textAlign= "center";
   
   
   
