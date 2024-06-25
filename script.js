@@ -25,8 +25,7 @@ if (device == "phone") {
   document.getElementById("main").style.textAlign= "center";
   document.getElementById("logo").style.height = "65px"
   document.getElementById("logo").style.width = "360px"
-  document.getElementById("b1").style.display = "contents"
-  document.getElementById("b2").style.display = "contents"
+  
 }
 
 var w = window.innerWidth;
