@@ -18,13 +18,8 @@ if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw
 if (device == "phone") {
 
   document.getElementById("main").style.padding= "0px";
-  document.getElementById("img1").style.height= "110px";
-  document.getElementById("img1").style.width= "200px";
-  document.getElementById("img2").style.height= "80px";
-  document.getElementById("img2").style.width= "200px";
   document.getElementById("main").style.textAlign= "center";
-  document.getElementById("logo").style.height = "65px"
-  document.getElementById("logo").style.width = "360px"
+  
   
 }
 
@@ -33,14 +28,7 @@ var w = window.innerWidth;
 
 if (w<=1000) {
   document.getElementById("main").style.padding= "0px";
-  document.getElementById("img1").style.height= "110px";
-  document.getElementById("img1").style.width= "200px";
-  document.getElementById("img2").style.height= "80px";
-  document.getElementById("img2").style.width= "200px";
   document.getElementById("main").style.textAlign= "center";
-  document.getElementById("logo").style.height = "65px"
-  document.getElementById("logo").style.width = "360px"
-  document.getElementById("b1").style.display = "contents"
-  document.getElementById("b2").style.display = "contents"
+  
 
 }
