@@ -1,5 +1,5 @@
 
-
+const dochtml = document.getElementsByTag("html")[0];
 function start() {
     alert("Hi! I'm Shanvanth. I wrote this part, and here is a fun fact: My average KDA is 3 / 132 / 4\nAnd that's when I play with bots!")
 
@@ -19,6 +19,8 @@ if (device == "phone") {
 
   document.getElementById("main").style.padding= "0px";
   document.getElementById("main").style.textAlign= "center";
+  dochtml.style.textAlign = "center";
+  
   
   
   
