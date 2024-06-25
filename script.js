@@ -19,7 +19,7 @@ if (device == "phone") {
 
   document.getElementById("main").style.padding= "0px";
   document.getElementById("main").style.textAlign= "center";
-  dochtml.style.textAlign = "center";
+  
   
   
   
