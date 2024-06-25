@@ -1,4 +1,4 @@
-const shanplay = new Audio("indian.mp3")
+
 
 function start() {
     alert("Hi! I'm Shanvanth. I wrote this part, and here is a fun fact: My average KDA is 3 / 132 / 4\nAnd that's when I play with bots!")
@@ -18,7 +18,7 @@ if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw
 if (device == "phone") {
 
   document.getElementById("main").style.padding= "0px";
-  document.getElementById("main").style.textAlign= "center";
+  
   
   
 }
@@ -28,7 +28,7 @@ var w = window.innerWidth;
 
 if (w<=1000) {
   document.getElementById("main").style.padding= "0px";
-  document.getElementById("main").style.textAlign= "center";
+ 
   
 
 }
